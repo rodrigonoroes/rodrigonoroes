@@ -58,7 +58,7 @@
   <text x="128" y="477" fill="#39ff14" font-family="monospace" font-size="17">[1] SYSOP PROFILE</text>
   <text x="420" y="477" fill="#00d9ff" font-family="monospace" font-size="17">[2] TECH CHANNELS</text>
   <text x="755" y="477" fill="#ffb000" font-family="monospace" font-size="17">[3] CAREER ARCHIVE</text>
-  <text x="128" y="512" fill="#ff2bd6" font-family="monospace" font-size="17">[4] FEATURED PROJECT</text>
+  <text x="128" y="512" fill="#ff2bd6" font-family="monospace" font-size="17">[4] SYSTEM BLUEPRINT</text>
   <text x="420" y="512" fill="#8a7dff" font-family="monospace" font-size="17">[5] ENGINEERING CODE</text>
   <text x="755" y="512" fill="#39ff14" font-family="monospace" font-size="17">[6] CURRENT SIGNAL</text>
   <text x="100" y="580" fill="#00d9ff" font-family="monospace" font-size="18">C:\BBS&gt;</text>
@@ -66,4 +66,3 @@
 
   <rect width="1200" height="620" rx="22" fill="url(#scanlines)" pointer-events="none"/>
 </svg>
-

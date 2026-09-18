@@ -29,7 +29,7 @@ Entering RODRIGO CARVALHO SYSTEMS ... GRANTED
 ║   [1] SYSOP PROFILE       Who is behind the keyboard?              ║
 ║   [2] TECH CHANNELS       Backend, frontend, data, cloud and AI     ║
 ║   [3] CAREER ARCHIVE      20+ years of production experience       ║
-║   [4] FEATURED DOWNLOAD   My Fidelity Card                          ║
+║   [4] SYSTEM BLUEPRINT    Full-stack architecture patterns          ║
 ║   [5] ENGINEERING CODE    Principles used to ship software         ║
 ║   [6] CURRENT SIGNAL      What is being built now                   ║
 ║                                                                    ║
@@ -133,21 +133,21 @@ travel platforms.
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
-## `[4] FEATURED DOWNLOAD // MYFIDELITYCARD.ZIP`
+## `[4] SYSTEM BLUEPRINT // ARCHITECTURE.ANS`
 
-### `MY FIDELITY CARD — MULTI-TENANT LOYALTY PLATFORM`
+### `SECURE FULL-STACK APPLICATION NODE`
 
-A full-stack SaaS platform for digital loyalty programs, evolving into a database-backed
-architecture with **Java 26, Spring Boot, PostgreSQL and Angular**.
+A reference architecture for maintainable enterprise applications built with Java, Spring Boot,
+Angular and PostgreSQL.
 
 ```text
           ┌─────────────────────── BROWSER CLIENTS ───────────────────────┐
-          │  LOGIN UI  │  TENANT DASHBOARD  │  DEV DATA EXPLORER        │
+          │  ANGULAR UI  │  ADMIN CONSOLE  │  OPERATIONS TOOLING        │
           └────────────┴───────────┬─────────┴────────────────────────────┘
                                    │ HTTPS / JSON
           ┌────────────────────────▼──────────────────────────────────────┐
           │  SPRING BOOT API                                             │
-          │  Auth · Signup · Sessions · Recovery · Tenant Onboarding     │
+          │  Authentication · Business APIs · Sessions · Integrations    │
           ├───────────────────────────────────────────────────────────────┤
           │  Domain Services · Security · Audit · Validation · SMTP      │
           ├────────────────────────┬──────────────────────────────────────┤
@@ -158,13 +158,6 @@ architecture with **Java 26, Spring Boot, PostgreSQL and Angular**.
                                            │    POSTGRESQL     │
                                            └───────────────────┘
 ```
-
-<div align="center">
-
-[![Download project](https://img.shields.io/badge/%5BDOWNLOAD%5D-OPEN_MY_FIDELITY_CARD-00d9ff?style=for-the-badge&labelColor=060615)](https://github.com/rodrigonoroes/myfidelitycard)
-[![Source status](https://img.shields.io/badge/SOURCE-PUBLIC-39ff14?style=for-the-badge&labelColor=060615)](https://github.com/rodrigonoroes/myfidelitycard)
-
-</div>
 
 ## `[5] ENGINEERING CODE // PRINCIPLES.TXT`
 
@@ -180,9 +173,9 @@ architecture with **Java 26, Spring Boot, PostgreSQL and Angular**.
 ## `[6] CURRENT SIGNAL // NOW.BBS`
 
 ```diff
-+ Modernizing My Fidelity Card with PostgreSQL, Flyway and synchronous REST APIs
-+ Building an Angular authentication experience integrated with Spring Boot V3
-+ Improving session security, recovery flows, tenant isolation and auditability
++ Designing secure Java and Spring Boot APIs backed by PostgreSQL and Flyway
++ Building modern Angular experiences with typed contracts and accessible interfaces
++ Improving session security, recovery flows, data isolation and auditability
 + Exploring AI-powered workflows for product development and software delivery
 ```
 
@@ -190,10 +183,9 @@ architecture with **Java 26, Spring Boot, PostgreSQL and Angular**.
 ╔══════════════════════════[ CONTACT NODE ]════════════════════════════╗
 ║                                                                    ║
 ║  GitHub ....... github.com/rodrigonoroes                            ║
-║  Project ...... github.com/rodrigonoroes/myfidelitycard             ║
 ║  Protocol ..... Pull requests, issues and technical conversations   ║
 ║                                                                    ║
-║  [Q] Log off     [M] Send message     [R] Read project              ║
+║  [Q] Log off     [M] Send message     [R] Read repositories         ║
 ╚════════════════════════════════════════════════════════════════════╝
 ```
 

@@ -13,7 +13,7 @@ rodrigonoroes/rodrigonoroes
 2. Copy `README.md` and the `assets/` directory from this folder into that repository.
 3. Review the text and links before publishing.
 4. Commit and push the files.
-5. Pin `myfidelitycard` and the strongest representative repositories on the profile page.
+5. Pin only public repositories that are appropriate for a professional profile.
 
 Suggested commit message:
 

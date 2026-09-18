@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="104" viewBox="0 0 720 104" role="img" aria-labelledby="title description">
+  <title id="title">Open full terminal résumé</title>
+  <desc id="description">Animated green terminal button inviting visitors to open the full résumé.</desc>
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06130d"/>
+      <stop offset="0.5" stop-color="#020705"/>
+      <stop offset="1" stop-color="#07180f"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-80%" width="160%" height="260%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
+      <path d="M0 3.5H720" stroke="#22c55e" stroke-opacity="0.05"/>
+    </pattern>
+    <style>
+      .frame { animation: framePulse 1.7s ease-in-out infinite; }
+      .label { animation: textPulse 1.7s ease-in-out infinite; }
+      .cursor { animation: cursorBlink .75s steps(1, end) infinite; }
+      .chevron { animation: chevronMove 1.15s ease-in-out infinite; }
+      .sweep { animation: sweep 2.8s linear infinite; }
+      @keyframes framePulse {
+        0%, 100% { stroke: #16a34a; stroke-opacity: .62; }
+        50% { stroke: #86efac; stroke-opacity: 1; }
+      }
+      @keyframes textPulse {
+        0%, 100% { fill: #4ade80; opacity: .72; }
+        50% { fill: #bbf7d0; opacity: 1; }
+      }
+      @keyframes cursorBlink { 0%, 46% { opacity: 1; } 47%, 100% { opacity: 0; } }
+      @keyframes chevronMove { 0%, 100% { transform: translateX(0); } 50% { transform: translateX(8px); } }
+      @keyframes sweep { from { transform: translateX(-180px); } to { transform: translateX(900px); } }
+      @media (prefers-reduced-motion: reduce) {
+        .frame, .label, .cursor, .chevron, .sweep { animation: none; }
+      }
+    </style>
+  </defs>
+
+  <rect x="6" y="6" width="708" height="92" rx="10" fill="#010403" stroke="#052e16" stroke-width="2"/>
+  <rect class="frame" x="10" y="10" width="700" height="84" rx="8" fill="url(#panel)" stroke="#22c55e" stroke-width="2"/>
+  <rect x="10" y="10" width="700" height="84" rx="8" fill="url(#scanlines)"/>
+
+  <g fill="#22c55e">
+    <circle cx="34" cy="31" r="4" opacity=".95"/>
+    <circle cx="49" cy="31" r="4" opacity=".58"/>
+    <circle cx="64" cy="31" r="4" opacity=".3"/>
+  </g>
+  <path d="M88 31H686" stroke="#14532d" stroke-width="1"/>
+
+  <g filter="url(#glow)" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">
+    <text x="34" y="70" fill="#22c55e" font-size="18" font-weight="700">$</text>
+    <text class="label" x="62" y="70" fill="#4ade80" font-size="20" font-weight="700" letter-spacing="1.4">OPEN FULL TERMINAL RÉSUMÉ</text>
+    <rect class="cursor" x="425" y="52" width="10" height="22" rx="1" fill="#86efac"/>
+    <g class="chevron" fill="none" stroke="#86efac" stroke-linecap="round" stroke-linejoin="round" stroke-width="3">
+      <path d="M651 53l12 12-12 12M669 53l12 12-12 12"/>
+    </g>
+  </g>
+
+  <rect class="sweep" x="-180" y="11" width="150" height="82" fill="#86efac" opacity=".06" transform="skewX(-20)"/>
+</svg>

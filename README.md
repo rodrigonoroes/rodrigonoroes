@@ -1,7 +1,9 @@
 <div align="center">
   <img src="./assets/terminal-hero.svg" alt="Animated terminal résumé for Rodrigo Norões Moura de Carvalho" width="100%">
 
-  <a href="https://rodrigonoroes.github.io"><strong>OPEN FULL TERMINAL RÉSUMÉ</strong></a>
+  <a href="https://rodrigonoroes.github.io">
+    <img src="./assets/open-terminal-resume.svg" alt="Open full terminal résumé" width="720">
+  </a>
 </div>
 
 ## `$ whoami`

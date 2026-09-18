@@ -4,7 +4,7 @@
   </a>
 
   <a href="https://rodrigonoroes.github.io/">
-    <img src="./assets/open-terminal-resume.svg" alt="Visit my professional profile" width="720">
+    <img src="./assets/open-terminal-resume.svg" alt="Visit my professional profile at https://rodrigonoroes.github.io/" width="720">
   </a>
 </div>
 

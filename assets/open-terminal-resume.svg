@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="720" height="104" viewBox="0 0 720 104" role="img" aria-labelledby="title description">
-  <title id="title">Open full terminal résumé</title>
-  <desc id="description">Animated green terminal button inviting visitors to open the full résumé.</desc>
+  <title id="title">Visit my profile</title>
+  <desc id="description">Animated green terminal button inviting visitors to view Rodrigo's professional profile.</desc>
   <defs>
     <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#06130d"/>
@@ -53,8 +53,8 @@
 
   <g filter="url(#glow)" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">
     <text x="34" y="70" fill="#22c55e" font-size="18" font-weight="700">$</text>
-    <text class="label" x="62" y="70" fill="#4ade80" font-size="20" font-weight="700" letter-spacing="1.4">OPEN FULL TERMINAL RÉSUMÉ</text>
-    <rect class="cursor" x="425" y="52" width="10" height="22" rx="1" fill="#86efac"/>
+    <text class="label" x="62" y="70" fill="#4ade80" font-size="20" font-weight="700" letter-spacing="1.4">VISIT MY PROFILE</text>
+    <rect class="cursor" x="270" y="52" width="10" height="22" rx="1" fill="#86efac"/>
     <g class="chevron" fill="none" stroke="#86efac" stroke-linecap="round" stroke-linejoin="round" stroke-width="3">
       <path d="M651 53l12 12-12 12M669 53l12 12-12 12"/>
     </g>

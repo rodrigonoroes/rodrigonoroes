@@ -1,138 +1,202 @@
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: light)" srcset="./assets/bbs-header-light.svg">
-    <img src="./assets/bbs-header.svg" alt="Rodrigo Carvalho — Java, Spring Boot, Angular and AI Full-Stack Developer" width="100%">
-  </picture>
+  <img src="./assets/bbs-header.svg" alt="Rodrigo Carvalho Systems — 1990s BBS terminal" width="100%">
 </div>
+
+```text
+ATDT RODRIGO.DEV
+CONNECT 14400/V42BIS
+
+Synchronizing terminal ............. OK
+Loading ANSI color driver .......... OK
+Negotiating secure connection ...... OK
+Entering RODRIGO CARVALHO SYSTEMS ... GRANTED
+```
 
 <div align="center">
 
-`JAVA` · `SPRING BOOT` · `ANGULAR` · `POSTGRESQL` · `AI FULL-STACK`
-
-[![Profile](https://img.shields.io/badge/SYSOP-RODRIGO_CARVALHO-39ff14?style=flat-square&labelColor=071007)](https://github.com/rodrigonoroes)
-[![Main project](https://img.shields.io/badge/PROJECT-MY_FIDELITY_CARD-ffb000?style=flat-square&labelColor=171000)](https://github.com/rodrigonoroes/myfidelitycard)
+![Java](https://img.shields.io/badge/Java-ff3b30?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-39ff14?style=for-the-badge&logo=springboot&logoColor=071007)
+![Angular](https://img.shields.io/badge/Angular-ff2bd6?style=for-the-badge&logo=angular&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-00d9ff?style=for-the-badge&logo=typescript&logoColor=071007)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-8a7dff?style=for-the-badge&logo=postgresql&logoColor=white)
+![AI](https://img.shields.io/badge/AI_FULL--STACK-ffb000?style=for-the-badge&logo=openai&logoColor=071007)
 
 </div>
 
 ```text
-╔══════════════════════════════════════════════════════════════════════╗
-║  NODE: RODRIGO.DEV                    STATUS: ONLINE                 ║
-║  ACCESS: PUBLIC PROFILE               MODE: BUILDING                 ║
-╚══════════════════════════════════════════════════════════════════════╝
+╔══════════════════════════[ MAIN MENU ]══════════════════════════════╗
+║                                                                    ║
+║   [1] SYSOP PROFILE       Who is behind the keyboard?              ║
+║   [2] TECH CHANNELS       Backend, frontend, data, cloud and AI     ║
+║   [3] CAREER ARCHIVE      20+ years of production experience       ║
+║   [4] FEATURED DOWNLOAD   My Fidelity Card                          ║
+║   [5] ENGINEERING CODE    Principles used to ship software         ║
+║   [6] CURRENT SIGNAL      What is being built now                   ║
+║                                                                    ║
+║   Command: READ ALL                                  [ENTER]        ║
+╚════════════════════════════════════════════════════════════════════╝
 ```
 
-## `C:\PROFILE> whoami`
+## `[1] SYSOP PROFILE // WHOAMI.SYS`
 
-I am **Rodrigo Carvalho**, a full-stack software developer focused on building secure,
-maintainable products from database to user interface.
-
-My main stack combines **Java and Spring Boot** on the backend, **Angular and TypeScript** on the
-frontend, and **PostgreSQL** for reliable data persistence. I also explore AI-assisted product
-development, LLM integrations, developer agents, automation, and practical ways to bring AI into
-full-stack applications.
-
-Based in **Toronto, Canada**, I bring more than **20 years of software development experience**
-across healthcare, banking, payments, telecommunications, insurance, education, government,
-retail and travel platforms.
+<table>
+<tr>
+<td width="38%">
 
 ```text
-CURRENT MISSION
---------------
-Design systems that are clear, testable, secure and useful in the real world.
+        ___________________
+       /                  /|
+      /  RODRIGO.DEV     / |
+     /__________________/  |
+     |  ______________  |  |
+     | |              | |  |
+     | | C:\> whoami_ | |  |
+     | |              | |  |
+     | |______________| |  /
+     |__________________| /
+        _[__]___[__]_
+       /_____________\
+      /_______________\
 ```
 
-## `C:\PROFILE> type stack.cfg`
-
-| Channel | Technologies and focus |
-| --- | --- |
-| `[BACKEND]` | Java, Spring Boot, Spring Security, REST, SOAP, OpenAPI, microservices, Spring Batch |
-| `[FRONTEND]` | Angular, TypeScript, RxJS, Signals, Reactive Forms, HTML, CSS, responsive UI |
-| `[DATA]` | PostgreSQL, Oracle, DB2, SQL Server, MongoDB, DynamoDB, migrations and transactions |
-| `[INTEGRATION]` | FHIR, HL7, Kafka, RabbitMQ, JMS, ActiveMQ Artemis, CQRS, BPMN |
-| `[SECURITY]` | JWT, refresh sessions, BCrypt, CORS, rate limiting, validation, secure recovery flows |
-| `[CLOUD]` | AWS, Azure, GCP, Docker, Kubernetes, S3, Elastic Beanstalk and GitHub Actions |
-| `[AI]` | Spring AI, OpenAI APIs, Amazon Bedrock, agent workflows and AI-assisted development |
-| `[QUALITY]` | SOLID, clean architecture, unit/integration tests, accessibility, code review |
-
-## `C:\PROFILE> type career.log /summary`
+</td>
+<td width="62%">
 
 ```text
-2002 ─────────────────────────────────────────────────────────── 2026+
-  │                                                               │
-  ├─ Enterprise systems, government services and Java web apps    │
-  ├─ Banking, payments, telecom and high-traffic digital portals  │
-  ├─ E-commerce, batch processing, messaging and microservices    │
-  └─ Healthcare interoperability with Java, FHIR and HL7 ─────────┘
+USER ............ Rodrigo Carvalho
+ROLE ............ Senior Java / Full-Stack Developer
+LOCATION ........ Toronto, Canada
+UPTIME .......... 20+ years building software
+PRIMARY MODE .... Java + Spring Boot + Angular
+SECONDARY MODE .. Cloud + Integration + AI
+STATUS .......... ONLINE / BUILDING
 ```
 
-- **Senior Java Developer — T6 Health Systems:** scalable healthcare services, Spring Boot,
-  Spring Security, REST APIs, FHIR/HL7 interoperability and production reliability.
-- **Programmer Analyst — Scotiabank:** credit-card service integration, payment platforms,
-  Java, Spring Boot, OpenAPI, SOAP/REST, DB2, IBM AS400, GCP and observability.
-- **Senior Java Developer — OPAH, Certsys and OSF Digital:** travel e-commerce, banking batch
-  workloads, Salesforce integration, messaging, CQRS, microservices and cloud deployments.
-- **Earlier enterprise experience:** government, education, telecom, hospitality and financial
-  portals using Java/J2EE, Oracle, SQL Server, JavaFX, AngularJS and enterprise CMS platforms.
+I build secure, maintainable products from database to user interface. My experience spans
+healthcare, banking, payments, telecommunications, insurance, education, government, retail and
+travel platforms.
 
-```text
-EDUCATION     : B.Sc. in Computer Science — University of Fortaleza
-CERTIFICATION : Sun Certified Programmer for Java (SCJP)
-LANGUAGES     : Professional experience collaborating in English and Portuguese
+</td>
+</tr>
+</table>
+
+<div align="center">
+  <img src="./assets/bbs-console.svg" alt="BBS system channels and developer stack" width="100%">
+</div>
+
+## `[2] TECH CHANNELS // STACK.CFG`
+
+| BBS channel | Active modules |
+| :--- | :--- |
+| `#BACKEND` | Java, Spring Boot, Spring Security, REST, SOAP, OpenAPI, microservices, Spring Batch |
+| `#FRONTEND` | Angular, TypeScript, RxJS, Signals, Reactive Forms, HTML, CSS, accessible UI |
+| `#DATA` | PostgreSQL, Oracle, DB2, SQL Server, MongoDB, DynamoDB, Flyway, transactions |
+| `#INTEGRATION` | FHIR, HL7, Kafka, RabbitMQ, JMS, ActiveMQ Artemis, CQRS, BPMN |
+| `#SECURITY` | JWT, refresh sessions, OAuth2, BCrypt, OWASP, CORS, rate limiting, validation |
+| `#CLOUD` | AWS, Azure, GCP, Docker, Kubernetes, S3, CloudFront, Elastic Beanstalk |
+| `#AI-LAB` | Spring AI, OpenAI APIs, Amazon Bedrock, agents, automation, AI-assisted delivery |
+| `#QUALITY` | SOLID, clean architecture, JUnit, Mockito, integration tests, TDD, observability |
+
+```ansi
+┌─[ SYSTEM CAPABILITIES ]─────────────────────────────────────────────┐
+│ JAVA ████████████████████  SPRING ████████████████████             │
+│ WEB  ██████████████████░░  DATA   ██████████████████░░             │
+│ AI   ███████████████░░░░░  CLOUD  █████████████████░░░             │
+└────────────────────────────────────────────────────────────────────┘
 ```
 
-## `C:\PROFILE> dir projects /featured`
-
-### `[01] MY FIDELITY CARD`
-
-**A multi-tenant SaaS platform for digital loyalty programs.**
-
-The project is being evolved into a database-backed architecture with Java 26, Spring Boot,
-PostgreSQL and Angular. It covers account creation, e-mail verification, authentication,
-session management, password recovery, tenant onboarding and the foundation for digital loyalty
-cards.
+## `[3] CAREER ARCHIVE // HISTORY.LOG`
 
 ```text
-┌─────────────────────────── CLIENT LAYER ────────────────────────────┐
-│ Angular authentication UI │ Angular dashboard │ Dev data explorer  │
-└────────────────────────────────┬────────────────────────────────────┘
-                                 │ HTTPS / JSON
-┌────────────────────────────────▼────────────────────────────────────┐
-│ Java 26 · Spring Boot · Security · Validation · REST Controllers   │
-├─────────────────────────────────────────────────────────────────────┤
-│ Domain Services · Tenant Isolation · Sessions · Audit · Mail       │
-├─────────────────────────────────────────────────────────────────────┤
-│ Spring Data JPA · Flyway · PostgreSQL                              │
+2002                                                                  2026+
+  │                                                                      │
+  ├── Enterprise systems, government services and Java web apps          │
+  ├── Banking, payments, telecom and high-traffic digital portals        │
+  ├── E-commerce, batch processing, messaging and microservices          │
+  └── Healthcare interoperability with Java, FHIR and HL7 ───────────────┘
+```
+
+- **T6 Health Systems — Senior Java Developer:** healthcare services, Spring Boot, Spring
+  Security, REST APIs, FHIR/HL7 interoperability and production reliability.
+- **Scotiabank — Programmer Analyst:** credit-card and payment integrations using Java, Spring
+  Boot, OpenAPI, SOAP/REST, DB2, IBM AS400, GCP, Splunk and Dynatrace.
+- **OPAH, Certsys and OSF Digital — Senior Java Developer:** travel e-commerce, financial batch
+  workloads, Salesforce integrations, messaging, CQRS, microservices and cloud platforms.
+- **Earlier enterprise systems:** government, education, telecom, hospitality and banking
+  solutions using Java/J2EE, Oracle, SQL Server, JavaFX, AngularJS and enterprise CMS platforms.
+
+```text
+┌─ EDUCATION.DAT ─────────────────────────────────────────────────────┐
+│ B.Sc. in Computer Science — University of Fortaleza                │
+│ Sun Certified Programmer for Java — SCJP                           │
+│ Professional collaboration in English and Portuguese               │
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
-[![Repository](https://img.shields.io/badge/OPEN_REPOSITORY-myfidelitycard-39ff14?style=for-the-badge&labelColor=071007)](https://github.com/rodrigonoroes/myfidelitycard)
+## `[4] FEATURED DOWNLOAD // MYFIDELITYCARD.ZIP`
 
-## `C:\PROFILE> type engineering.principles`
+### `MY FIDELITY CARD — MULTI-TENANT LOYALTY PLATFORM`
 
-```text
-[01] Keep controllers thin and business rules explicit.
-[02] Prefer simple, cohesive designs over premature abstractions.
-[03] Treat authentication, authorization and privacy as product features.
-[04] Automate repeatable work and validate every meaningful change.
-[05] Build accessible interfaces with clear loading, success and error states.
-[06] Use AI to amplify engineering judgment — never to replace it.
-```
-
-## `C:\PROFILE> status --current`
-
-- Modernizing **My Fidelity Card** with PostgreSQL, Flyway and synchronous REST contracts.
-- Building a new Angular authentication experience integrated with the Spring Boot V3 API.
-- Improving session security, account recovery, tenant isolation and auditability.
-- Exploring AI-powered workflows for software delivery and product capabilities.
-
-## `C:\PROFILE> connect`
+A full-stack SaaS platform for digital loyalty programs, evolving into a database-backed
+architecture with **Java 26, Spring Boot, PostgreSQL and Angular**.
 
 ```text
-GITHUB  : github.com/rodrigonoroes
-PROJECT : github.com/rodrigonoroes/myfidelitycard
-STATUS  : READY TO BUILD
+          ┌─────────────────────── BROWSER CLIENTS ───────────────────────┐
+          │  LOGIN UI  │  TENANT DASHBOARD  │  DEV DATA EXPLORER        │
+          └────────────┴───────────┬─────────┴────────────────────────────┘
+                                   │ HTTPS / JSON
+          ┌────────────────────────▼──────────────────────────────────────┐
+          │  SPRING BOOT API                                             │
+          │  Auth · Signup · Sessions · Recovery · Tenant Onboarding     │
+          ├───────────────────────────────────────────────────────────────┤
+          │  Domain Services · Security · Audit · Validation · SMTP      │
+          ├────────────────────────┬──────────────────────────────────────┤
+          │  JPA / HIBERNATE       │  FLYWAY MIGRATIONS                  │
+          └────────────────────────┴──────────────────┬───────────────────┘
+                                                     │
+                                           ┌─────────▼─────────┐
+                                           │    POSTGRESQL     │
+                                           └───────────────────┘
 ```
 
 <div align="center">
-  <img src="./assets/bbs-footer.svg" alt="End of transmission — keep building" width="100%">
+
+[![Download project](https://img.shields.io/badge/%5BDOWNLOAD%5D-OPEN_MY_FIDELITY_CARD-00d9ff?style=for-the-badge&labelColor=060615)](https://github.com/rodrigonoroes/myfidelitycard)
+[![Source status](https://img.shields.io/badge/SOURCE-PUBLIC-39ff14?style=for-the-badge&labelColor=060615)](https://github.com/rodrigonoroes/myfidelitycard)
+
+</div>
+
+## `[5] ENGINEERING CODE // PRINCIPLES.TXT`
+
+```text
+01: Keep controllers thin and business rules explicit.
+02: Prefer cohesive designs over premature abstractions.
+03: Treat authentication, authorization and privacy as product features.
+04: Automate repeatable work and validate every meaningful change.
+05: Build accessible interfaces with clear loading, success and error states.
+06: Use AI to amplify engineering judgment — never to replace it.
+```
+
+## `[6] CURRENT SIGNAL // NOW.BBS`
+
+```diff
++ Modernizing My Fidelity Card with PostgreSQL, Flyway and synchronous REST APIs
++ Building an Angular authentication experience integrated with Spring Boot V3
++ Improving session security, recovery flows, tenant isolation and auditability
++ Exploring AI-powered workflows for product development and software delivery
+```
+
+```text
+╔══════════════════════════[ CONTACT NODE ]════════════════════════════╗
+║                                                                    ║
+║  GitHub ....... github.com/rodrigonoroes                            ║
+║  Project ...... github.com/rodrigonoroes/myfidelitycard             ║
+║  Protocol ..... Pull requests, issues and technical conversations   ║
+║                                                                    ║
+║  [Q] Log off     [M] Send message     [R] Read project              ║
+╚════════════════════════════════════════════════════════════════════╝
+```
+
+<div align="center">
+  <img src="./assets/bbs-footer.svg" alt="End of BBS transmission" width="100%">
 </div>

@@ -1,7 +1,9 @@
 <div align="center">
-  <img src="./assets/terminal-hero.svg" alt="Animated terminal résumé for Rodrigo Norões Moura de Carvalho" width="100%">
+  <a href="https://rodrigonoroes.github.io/">
+    <img src="./assets/terminal-hero.svg" alt="Animated terminal résumé for Rodrigo Norões Moura de Carvalho" width="100%">
+  </a>
 
-  <a href="https://rodrigonoroes.github.io">
+  <a href="https://rodrigonoroes.github.io/">
     <img src="./assets/open-terminal-resume.svg" alt="Open full terminal résumé" width="720">
   </a>
 </div>
@@ -15,7 +17,9 @@ Passionate about tackling complex technical challenges, collaborating with multi
 teams and continuously exchanging knowledge to build high-performance, secure applications.
 
 <div align="center">
-  <img src="./assets/terminal-status.svg" alt="Animated terminal displaying core technical areas" width="100%">
+  <a href="https://rodrigonoroes.github.io/">
+    <img src="./assets/terminal-status.svg" alt="Animated terminal displaying core technical areas" width="100%">
+  </a>
 </div>
 
 ## `$ skills --grouped`
@@ -136,5 +140,7 @@ email: rodrigo.noroes@gmail.com
 [Send an e-mail](mailto:rodrigo.noroes@gmail.com)
 
 <div align="center">
-  <img src="./assets/terminal-footer.svg" alt="Animated terminal connection footer" width="100%">
+  <a href="https://rodrigonoroes.github.io/">
+    <img src="./assets/terminal-footer.svg" alt="Animated terminal connection footer" width="100%">
+  </a>
 </div>

@@ -1,23 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="title description">
-  <title id="title">Rodrigo Carvalho Systems BBS</title>
-  <desc id="description">A colorful dark 1990s bulletin board system terminal introducing Rodrigo Carvalho, Java, Spring Boot, Angular and AI full-stack developer.</desc>
+  <title id="title">Rodrigo Norões Moura de Carvalho résumé terminal</title>
+  <desc id="description">A monochrome retro terminal showing the résumé of Rodrigo Norões Moura de Carvalho.</desc>
   <defs>
     <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#02020a"/>
-      <stop offset="0.55" stop-color="#070619"/>
-      <stop offset="1" stop-color="#020b12"/>
+      <stop offset="0" stop-color="#020202"/>
+      <stop offset="0.55" stop-color="#090909"/>
+      <stop offset="1" stop-color="#030303"/>
     </linearGradient>
     <linearGradient id="ansi" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#ff2bd6"/>
-      <stop offset="0.32" stop-color="#8a7dff"/>
-      <stop offset="0.64" stop-color="#00d9ff"/>
-      <stop offset="1" stop-color="#39ff14"/>
+      <stop offset="0" stop-color="#777777"/>
+      <stop offset="0.32" stop-color="#a0a0a0"/>
+      <stop offset="0.64" stop-color="#d0d0d0"/>
+      <stop offset="1" stop-color="#f2f2f2"/>
     </linearGradient>
     <pattern id="scanlines" width="5" height="5" patternUnits="userSpaceOnUse">
       <rect width="5" height="2" fill="#000" opacity="0.22"/>
     </pattern>
     <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0H0V40" fill="none" stroke="#00d9ff" stroke-opacity="0.035"/>
+      <path d="M40 0H0V40" fill="none" stroke="#d0d0d0" stroke-opacity="0.035"/>
     </pattern>
     <filter id="cyanGlow" x="-30%" y="-30%" width="160%" height="160%">
       <feGaussianBlur stdDeviation="4" result="blur"/>
@@ -29,18 +29,18 @@
     </filter>
   </defs>
 
-  <rect width="1200" height="620" rx="22" fill="#010106"/>
-  <rect x="12" y="12" width="1176" height="596" rx="18" fill="url(#screen)" stroke="#ff2bd6" stroke-width="3"/>
-  <rect x="22" y="22" width="1156" height="576" rx="13" fill="url(#grid)" stroke="#00d9ff" stroke-width="1"/>
+  <rect width="1200" height="620" rx="22" fill="#010101"/>
+  <rect x="12" y="12" width="1176" height="596" rx="18" fill="url(#screen)" stroke="#b0b0b0" stroke-width="3"/>
+  <rect x="22" y="22" width="1156" height="576" rx="13" fill="url(#grid)" stroke="#666666" stroke-width="1"/>
 
   <path d="M23 82H1177" stroke="url(#ansi)" stroke-width="3"/>
-  <circle cx="50" cy="52" r="8" fill="#ff3b30" filter="url(#pinkGlow)"/>
-  <circle cx="78" cy="52" r="8" fill="#ffb000"/>
-  <circle cx="106" cy="52" r="8" fill="#39ff14"/>
-  <text x="138" y="59" fill="#b8b2ff" font-family="monospace" font-size="18">RCS TERM v9.6</text>
-  <text x="1150" y="59" fill="#00d9ff" font-family="monospace" font-size="18" text-anchor="end">14400 BAUD // ANSI ON</text>
+  <circle cx="50" cy="52" r="8" fill="#555555" filter="url(#pinkGlow)"/>
+  <circle cx="78" cy="52" r="8" fill="#999999"/>
+  <circle cx="106" cy="52" r="8" fill="#dddddd"/>
+  <text x="138" y="59" fill="#c8c8c8" font-family="monospace" font-size="18">RNMC RESUME TERM v9.6</text>
+  <text x="1150" y="59" fill="#dedede" font-family="monospace" font-size="18" text-anchor="end">14400 BAUD // MONO ON</text>
 
-  <text x="52" y="119" fill="#ffb000" font-family="monospace" font-size="17">ATDT RODRIGO.DEV  ·  CONNECT 14400/V42BIS  ·  ACCESS LEVEL: VISITOR</text>
+  <text x="52" y="119" fill="#bcbcbc" font-family="monospace" font-size="17">ATDT RODRIGO.DEV  ·  CONNECT 14400/V42BIS  ·  ACCESS LEVEL: VISITOR</text>
 
   <g font-family="monospace" font-size="21" font-weight="700" fill="url(#ansi)" filter="url(#cyanGlow)">
     <text x="600" y="169" text-anchor="middle">██████╗  ██████╗ ██████╗ ██████╗ ██╗ ██████╗  ██████╗</text>
@@ -51,18 +51,18 @@
     <text x="600" y="314" text-anchor="middle">╚═╝  ╚═╝ ╚═════╝ ╚═════╝ ╚═╝  ╚═╝╚═╝ ╚═════╝  ╚═════╝</text>
   </g>
 
-  <text x="600" y="366" fill="#ff2bd6" font-family="monospace" font-size="31" font-weight="700" text-anchor="middle" filter="url(#pinkGlow)">C A R V A L H O   S Y S T E M S</text>
-  <text x="600" y="407" fill="#f4f0ff" font-family="monospace" font-size="20" text-anchor="middle">JAVA · SPRING BOOT · ANGULAR · POSTGRESQL · AI FULL-STACK</text>
+  <text x="600" y="366" fill="#f0f0f0" font-family="monospace" font-size="27" font-weight="700" text-anchor="middle" filter="url(#pinkGlow)">RODRIGO NORÕES MOURA DE CARVALHO</text>
+  <text x="600" y="407" fill="#d8d8d8" font-family="monospace" font-size="20" text-anchor="middle">SENIOR JAVA · FULL-STACK SOFTWARE DEVELOPER</text>
 
-  <rect x="100" y="445" width="1000" height="103" rx="4" fill="#03030c" stroke="#8a7dff"/>
-  <text x="128" y="477" fill="#39ff14" font-family="monospace" font-size="17">[1] SYSOP PROFILE</text>
-  <text x="420" y="477" fill="#00d9ff" font-family="monospace" font-size="17">[2] TECH CHANNELS</text>
-  <text x="755" y="477" fill="#ffb000" font-family="monospace" font-size="17">[3] CAREER ARCHIVE</text>
-  <text x="128" y="512" fill="#ff2bd6" font-family="monospace" font-size="17">[4] SYSTEM BLUEPRINT</text>
-  <text x="420" y="512" fill="#8a7dff" font-family="monospace" font-size="17">[5] ENGINEERING CODE</text>
-  <text x="755" y="512" fill="#39ff14" font-family="monospace" font-size="17">[6] CURRENT SIGNAL</text>
-  <text x="100" y="580" fill="#00d9ff" font-family="monospace" font-size="18">C:\BBS&gt;</text>
-  <rect x="186" y="563" width="12" height="20" fill="#ffb000"/>
+  <rect x="100" y="445" width="1000" height="103" rx="4" fill="#050505" stroke="#777777"/>
+  <text x="128" y="477" fill="#eeeeee" font-family="monospace" font-size="17">[1] SUMMARY</text>
+  <text x="420" y="477" fill="#d0d0d0" font-family="monospace" font-size="17">[2] TECHNICAL SKILLS</text>
+  <text x="755" y="477" fill="#b8b8b8" font-family="monospace" font-size="17">[3] EXPERIENCE</text>
+  <text x="128" y="512" fill="#a0a0a0" font-family="monospace" font-size="17">[4] EDUCATION</text>
+  <text x="420" y="512" fill="#d8d8d8" font-family="monospace" font-size="17">[5] CERTIFICATION</text>
+  <text x="755" y="512" fill="#f0f0f0" font-family="monospace" font-size="17">[6] CONTACT</text>
+  <text x="100" y="580" fill="#e0e0e0" font-family="monospace" font-size="18">C:\BBS&gt;</text>
+  <rect x="186" y="563" width="12" height="20" fill="#d0d0d0"/>
 
   <rect width="1200" height="620" rx="22" fill="url(#scanlines)" pointer-events="none"/>
 </svg>

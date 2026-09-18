@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="250" viewBox="0 0 1200 250" role="img" aria-labelledby="title desc">
+  <title id="title">Technical capability status</title>
+  <desc id="desc">Animated black and green terminal cards showing résumé skill categories.</desc>
+  <defs>
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+      .card { animation: breathe 4s ease-in-out infinite; }
+      .c2 { animation-delay: .5s; } .c3 { animation-delay: 1s; } .c4 { animation-delay: 1.5s; }
+      .dot { animation: blink 1.4s steps(1) infinite; }
+      @keyframes breathe { 0%,100% { stroke-opacity: .35; } 50% { stroke-opacity: 1; } }
+      @keyframes blink { 0%,55% { opacity: 1; } 56%,100% { opacity: .25; } }
+      @media (prefers-reduced-motion: reduce) { .card,.dot { animation: none !important; } }
+    </style>
+  </defs>
+  <rect width="1200" height="250" rx="18" fill="#010302"/>
+  <text x="36" y="42" class="mono" fill="#4ade80" font-size="16">$ systemctl status capabilities</text>
+
+  <g class="mono">
+    <g class="card">
+      <rect x="36" y="70" width="264" height="130" rx="12" fill="#030805" stroke="#22c55e"/>
+      <circle cx="62" cy="98" r="5" fill="#22c55e" class="dot"/>
+      <text x="80" y="104" fill="#dcfce7" font-size="17">BACKEND</text>
+      <text x="58" y="140" fill="#86efac" font-size="14">Java · Spring Boot</text>
+      <text x="58" y="168" fill="#4ade80" font-size="14">REST · Microservices</text>
+    </g>
+    <g class="card c2">
+      <rect x="324" y="70" width="264" height="130" rx="12" fill="#030805" stroke="#22c55e"/>
+      <circle cx="350" cy="98" r="5" fill="#22c55e" class="dot"/>
+      <text x="368" y="104" fill="#dcfce7" font-size="17">FRONTEND</text>
+      <text x="346" y="140" fill="#86efac" font-size="14">Angular · TypeScript</text>
+      <text x="346" y="168" fill="#4ade80" font-size="14">HTML5 · CSS3 · Vue.js</text>
+    </g>
+    <g class="card c3">
+      <rect x="612" y="70" width="264" height="130" rx="12" fill="#030805" stroke="#22c55e"/>
+      <circle cx="638" cy="98" r="5" fill="#22c55e" class="dot"/>
+      <text x="656" y="104" fill="#dcfce7" font-size="17">INTEGRATION</text>
+      <text x="634" y="140" fill="#86efac" font-size="14">FHIR · HL7 · Kafka</text>
+      <text x="634" y="168" fill="#4ade80" font-size="14">RabbitMQ · JMS · CQRS</text>
+    </g>
+    <g class="card c4">
+      <rect x="900" y="70" width="264" height="130" rx="12" fill="#030805" stroke="#22c55e"/>
+      <circle cx="926" cy="98" r="5" fill="#22c55e" class="dot"/>
+      <text x="944" y="104" fill="#dcfce7" font-size="17">CLOUD / DATA</text>
+      <text x="922" y="140" fill="#86efac" font-size="14">AWS · Azure · GCP</text>
+      <text x="922" y="168" fill="#4ade80" font-size="14">SQL · NoSQL · Docker</text>
+    </g>
+  </g>
+  <text x="36" y="228" class="mono" fill="#166534" font-size="14">● all capability modules loaded from resume data</text>
+</svg>

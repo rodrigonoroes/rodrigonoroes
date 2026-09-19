@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://rodrigonoroes.github.io/">
-    <img src="./assets/terminal-hero.svg" alt="Animated terminal résumé for Rodrigo Norões Moura de Carvalho" width="100%">
+    <img src="./assets/terminal-hero.svg" alt="Animated terminal resume for Rodrigo Norões Moura de Carvalho" width="100%">
   </a>
 
   <a href="https://rodrigonoroes.github.io/">
